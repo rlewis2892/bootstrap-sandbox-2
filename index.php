@@ -7,7 +7,7 @@
 	<body>
 
 		<!--header include-->
-		<?php require_once("lib/header.php"); ?>
+		<?php require_once("lib/header.html"); ?>
 
 		<main>
 
@@ -16,7 +16,7 @@
 		</main>
 
 		<!--footer include-->
-		<?php require_once("lib/footer.php"); ?>
+		<?php require_once("lib/footer.html"); ?>
 
 	</body>
 </html>
