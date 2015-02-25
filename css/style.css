@@ -27,7 +27,7 @@
 *
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
 ********************************************/
-.site {
+/*.site {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
@@ -35,10 +35,59 @@
 
 .site-content {
 	flex: 1;
-}
+}*/
 
 
 
 /********************************************
 * Test Styles
 ********************************************/
+#imgHeaderLogo {
+	width: 60px;
+	height: 60px;
+}
+
+.navbar-brand {
+	float: none;
+	height: auto;
+	padding: 0;
+}
+
+.kedlogic-nav {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	-webkit-flex-flow: row wrap;
+}
+
+.nav-item {
+	flex: 1;
+	font-size: 1.3em;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	top: 50%;
+}
+
+.nav-item:hover {
+	background-color: yellow;
+}
+
+
+/*BOOTSTRAP OVERRIDES*/
+
+/*remove floats*/
+.navbar-header,
+.navbar-nav {
+	float: none;
+}
+
+/*resize container*/
+@media screen and (min-width: 1200px) {
+	.container {width: 1000px;}
+}

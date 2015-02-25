@@ -10,9 +10,9 @@
 		<?php require_once("lib/header.html"); ?>
 
 		<main>
-
-
-
+			<div class="container">
+				container
+			</div>
 		</main>
 
 		<!--footer include-->
