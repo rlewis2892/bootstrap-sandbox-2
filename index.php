@@ -11,7 +11,7 @@
 
 		<main>
 			<div class="container">
-				container
+				Main Content Here
 			</div>
 		</main>
 
