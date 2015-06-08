@@ -12,7 +12,8 @@
 		<main>
 			<div class="container">
 
-				<div class="row">
+				<!--item pages live here-->
+				<div class="row pages">
 					<div class="col-xs-12">
 
 						<div id="page-1" class="page">
@@ -33,11 +34,18 @@
 							</div>
 						</div>
 
+					</div>
+				</div>
+
+				<!--pager lives here-->
+				<div class="row">
+					<div class="col-xs-12">
+
 						<div class="page-nav">
 							<nav>
 								<ul class="pagination">
 									<li>
-										<a href="#" aria-label="Previous" id="prev-lnk" class="pager-lnk">
+										<a href="#" aria-label="Previous" id="prev-lnk" class="arrow-lnk">
 											<span aria-hidden="true">&laquo;</span>
 										</a>
 									</li>
@@ -45,7 +53,7 @@
 									<li><a href="#" id="pg-2-lnk" class="pager-lnk" data-target="page-2">2</a></li>
 									<li><a href="#" id="pg-3-lnk" class="pager-lnk" data-target="page-3">3</a></li>
 									<li>
-										<a href="#" aria-label="Next" id="nxt-lnk">
+										<a href="#" aria-label="Next" id="nxt-lnk" class="arrow-lnk">
 											<span aria-hidden="true">&raquo;</span>
 										</a>
 									</li>
