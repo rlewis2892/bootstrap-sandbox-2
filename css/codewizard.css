@@ -1,0 +1,63 @@
+.magicmargin
+{
+	margin-top: 10em;
+	margin-bottom: 20em;
+}
+
+#middlewizard
+{
+	background-color: darkblue;
+	max-width: 20%;
+}
+
+.img-center
+{
+	margin: 0 auto;
+}
+
+.section-breaker
+{
+	margin-top: 8em;
+}
+
+.paragraph-breaker
+{
+	margin-top: 4em;
+}
+
+.wrapper {
+	display: inline-block;
+	margin-top: 25px;
+	/*position: relative;*/
+}
+
+.wrapper img {
+	display: block;
+	max-width:100%;
+}
+
+.wrapper .overlay {
+	/*position: absolute;*/
+	top: -1.2em;
+	left: 1em;
+	width: 100%;
+	height: 100%;
+	color: ghostwhite;
+}
+
+.code-faded
+{
+	-webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+	margin-bottom: 2em;
+}
+
+.code-not-faded {
+	-webkit-mask-image: none;
+}
+
+pre
+{
+	color: ghostwhite;
+	background-color: transparent;
+	border: none;
+}
