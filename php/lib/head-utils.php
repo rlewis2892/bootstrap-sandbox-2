@@ -59,7 +59,7 @@ setXsrfCookie();
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 		<!-- favicon generated using GIMP, improved by SR -->
-		<link type="image/ico" href="../../favicon.ico" rel="shortcut icon"/>
+		<link type="image/ico" href="<?php echo $PREFIX; ?>favicon.ico" rel="shortcut icon"/>
 
 		<!-- custom JavaScript file will go here-->
 
