@@ -11,7 +11,7 @@
 					<form id="profileController" class="form" method="post" action="../../php/controllers/profile-controller.php">
 						<div class="form-group">
 							<label for="UserId">User Name</label>
-							<input type="UserId" class="form-control" id="UserId" placeholder="Choose a username">
+							<input type="text" class="form-control" id="UserId" placeholder="Choose a username">
 						</div>
 						<div class="form-group">
 							<label for="hash1">Password</label>
