@@ -1,4 +1,21 @@
 /***
+* Layout Styles
+***/
+header {
+	border-bottom: solid 1px #555;
+	padding: 20px 0;
+}
+
+header h1 {
+	margin: 0;
+}
+
+main {
+	padding: 40px 0;
+}
+
+
+/***
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
 ***/
@@ -16,3 +33,4 @@ body { width: 100%;}
 .sfooter-content {
 	flex: 1 0 auto;
 }
+
