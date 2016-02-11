@@ -8,60 +8,36 @@ $CURRENT_DEPTH = substr_count($CURRENT_DIR, "/");
 $ROOT_DEPTH = substr_count($ROOT_PATH, "/");
 $DEPTH_DIFFERENCE = $CURRENT_DEPTH - $ROOT_DEPTH;
 $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
-require_once(dirname(dirname(__DIR__)) . "/php/lib/xsrf.php");
-
-if(session_status() !== PHP_SESSION_ACTIVE) {
-	session_start();
-}
-setXsrfCookie();
 ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-		<!-- Bootstrap Latest compiled and minified CSS -->
-		<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-		<!-- Optional Bootstrap theme -->
-		<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"
-				rel="stylesheet"/>
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-		<!-- Custom CSS -->
-		<link type="text/css" href="<?php echo $PREFIX; ?>css/style.css" rel="stylesheet"/>
-
-		<!-- Font Awesome -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-		<!-- Google WebFonts -->
-		<link href='//fonts.googleapis.com/css?family=Roboto:500,400italic,100,700italic,300,700,500italic,100italic,300italic,400' rel='stylesheet' type='text/css'>
-
-		<!-- js-cookie -->
-		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/js-cookie/2.0.2/js.cookie.min.js"></script>
+		<!-- My Custom CSS rlewis37@cnm.edu -->
+		<link rel="stylesheet" href="<?php echo $PREFIX;?>css/style.css" type="text/css"/>
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
-		<script type="text/javascript" src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script type="text/javascript" src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 
+		<!-- jQuery (required for Bootstap's JS plugins) -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
-		<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/additional-methods.min.js"></script>
-
-		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
-		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-		<!-- favicon generated using GIMP, improved by SR -->
-		<link type="image/ico" href="<?php echo $PREFIX; ?>favicon.ico" rel="shortcut icon"/>
-
-		<!-- custom JavaScript file will go here-->
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 		<title><?php echo $PAGE_TITLE; ?></title>
 	</head>
+	<body class="sfooter">
