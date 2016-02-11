@@ -10,7 +10,11 @@ require_once("php/lib/head-utils.php");
 	</header>
 
 	<main>
-		main content
+		<div class="container">
+			<div class="row">
+				main content
+			</div>
+		</div>
 	</main>
 </div>
 

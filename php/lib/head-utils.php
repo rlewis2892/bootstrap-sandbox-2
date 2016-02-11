@@ -22,6 +22,9 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
+		<!--Bootstrap Drawer Menu CSS-->
+		<link rel="stylesheet" href="<?php echo $PREFIX;?>css/bootstrap-drawer.min.css" type="text/css"/>
+
 		<!-- My Custom CSS rlewis37@cnm.edu -->
 		<link rel="stylesheet" href="<?php echo $PREFIX;?>css/style.css" type="text/css"/>
 
@@ -37,6 +40,9 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+		<!--Bootstrap Drawer js-->
+		<script type="text/javascript" src="<?php echo $PREFIX;?>js/drawer.min.js"></script>
 
 		<title><?php echo $PAGE_TITLE; ?></title>
 	</head>
