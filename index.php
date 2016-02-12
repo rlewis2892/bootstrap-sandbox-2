@@ -46,7 +46,7 @@
 			<!-- begin drawer example here         -->
 			<!-- --------------------------------- -->
 
-			<div id="drawerExample" class="drawer dw-xs-10 dw-sm-6 dw-md-4 fold" aria-labelledby="drawerExample">
+			<div id="drawerExample" class="drawer drawer-right drawer-inverse dw-xs-10 dw-sm-6 dw-md-4 fold" aria-labelledby="drawerExample">
 				<div class="drawer-contents">
 
 					<!--drawer heading-->
@@ -64,14 +64,14 @@
 					</div>
 
 					<!--drawer nav links-->
-					<ul class="drawer-nav">
+					<ul class="drawer-fullnav">
 						<li role="presentation" class="active"><a href="#">Home</a></li>
 						<li role="presentation"><a href="#">Profile</a></li>
 						<li role="presentation"><a href="#">Messages</a></li>
 					</ul>
 
 					<!--drawer footer-->
-					<div class="drawer-footer">
+					<div class="drawer-footer locked">
 						<small>&copy; drawer footer here</small>
 					</div>
 				</div><!--.drawer-contents-->
@@ -87,14 +87,14 @@
 						<div class="row">
 
 							<!--logo/brand-->
-							<div class="col-xs-6">
-								<a href="#"><h1>Nav Logo/Brand</h1></a>
+							<div class="col-xs-10 col-sm-6">
+								<a href="#"><h2>Open the Drawer!</h2></a>
 							</div>
 
 							<!--nav drawer control-->
-							<div class="col-xs-6">
+							<div class="col-xs-2 col-sm-6">
 								<div class="nav-toggle pull-right">
-									<a id="nav-toggle" href="#drawerExample" data-toggle="drawer" aria-foldedopen="false" aria-controls="drawerExample"><i class="fa fa-bars fa-3x"></i></a>
+									<a href="#drawerExample" data-toggle="drawer" aria-foldedopen="false" aria-controls="drawerExample"><i class="fa fa-bars fa-3x"></i></a>
 								</div><!--/.nav-toggle-->
 							</div><!--/.col-xs-12-->
 						</div><!--/.row-->
@@ -106,7 +106,7 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xs-12">
-							main content here
+							<p>Nifty handy-dandy side drawer menu that works with default Bootstrap (requires jQuery). Documentation: <a href="http://clineamb.github.io/bootstrap-drawer/">http://clineamb.github.io/bootstrap-drawer/</a>http://clineamb.github.io/bootstrap-drawer/</p>
 						</div>
 					</div>
 				</div>

@@ -6,12 +6,24 @@ header {
 	padding: 20px 0;
 }
 
-header h1 {
+header h2 {
 	margin: 0;
 }
 
 main {
 	padding: 40px 0;
+}
+
+/***
+* Custom Drawer Styles
+***/
+.nav-toggle {
+	position: relative;
+	z-index: 99999999;
+}
+
+.drawer-heading {
+	padding: 24px 15px 25px 15px;
 }
 
 
