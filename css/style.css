@@ -1,33 +1,4 @@
 /***
-* Layout Styles
-***/
-header {
-	border-bottom: solid 1px #555;
-	padding: 20px 0;
-}
-
-header h2 {
-	margin: 0;
-}
-
-main {
-	padding: 40px 0;
-}
-
-/***
-* Custom Drawer Styles
-***/
-.nav-toggle {
-	position: relative;
-	z-index: 99999999;
-}
-
-.drawer-heading {
-	padding: 24px 15px 25px 15px;
-}
-
-
-/***
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
 ***/
@@ -45,4 +16,27 @@ body { width: 100%;}
 .sfooter-content {
 	flex: 1 0 auto;
 }
+
+/***
+* Layout Styles
+***/
+header {
+	border-bottom: solid 1px #555;
+	padding: 20px 0;
+}
+
+header h2 {
+	margin: 0;
+}
+
+main {
+	padding: 40px 0;
+}
+
+/***
+* Navbar Styles
+***/
+
+
+
 
