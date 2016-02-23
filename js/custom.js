@@ -1,11 +1,15 @@
 $(document).ready(function(){
-	$(window).on('scroll', function() {
 
-		// if the scroll position is greater than 100px
-		if($(window).scrollTop() > 100) {
-			//$('.navbar').css({backgroundColor: '#000', boxShadow: '0 0 50px rgba(0,0,0,0.8)'});
+
+	// if the scroll position is greater than 100px - swap nav classes
+	$(window).on('scroll', function() {
+		if($(window).scrollTop() > 120) {
+			$('.navbar').addClass("navbar-fixed-top scrolled");
+			$('main').addClass("nav-padding-top");
 		} else {
-			//$('.navbar').css({backgroundColor: 'rgba(0,0,0,0.50)', boxShadow: 'none'});
+			$('.navbar').removeClass("navbar-fixed-top scrolled");
+			$('main').removeClass("nav-padding-top");
 		}
 	});
+
 });

@@ -20,22 +20,83 @@ body { width: 100%;}
 /***
 * Layout Styles
 ***/
-header {
-	border-bottom: solid 1px #555;
-	padding: 20px 0;
-}
-
-header h2 {
-	margin: 0;
-}
 
 main {
 	padding: 40px 0;
 }
 
+footer {
+	padding: 40px 0;
+	background-color: #333;
+	color: #fff;
+}
+
 /***
 * Navbar Styles
 ***/
+
+/*default styles on all breakpoints*/
+.navbar-brand {
+	font-family: serif;
+	font-size: 2em;
+	line-height: 1.25em;
+}
+
+/*styles on scroll*/
+.scrolled {
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+}
+
+nav.navbar.navbar-fixed-top.scrolled {
+	background-color: lightgray;
+}
+
+.scrolled .navbar-header {
+	padding: 0;
+	border-bottom: none;
+	text-align: left;
+}
+
+.scrolled .navbar-brand {
+	float: left;
+}
+
+/*styles on md screens and up*/
+@media only screen and (min-width: 992px) {
+
+	/*default styles*/
+	.navbar-header {
+		padding: 40px 0;
+		border-bottom: 1px solid #555;
+		float: none;
+		text-align: center;
+	}
+
+	.navbar-brand {
+		font-size: 6rem;
+		float: none;
+	}
+
+	/*styles on scroll*/
+	.scrolled .navbar-header {
+		float: left;
+	}
+
+	.scrolled .navbar-brand {
+		float: left;
+		font-size: 2em;
+		line-height: 20px;
+	}
+
+	/* adjust padding on main for fixed nav*/
+	.nav-padding-top {
+		padding-top: 220px;
+	}
+}
 
 
 
