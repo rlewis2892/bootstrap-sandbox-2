@@ -41,7 +41,22 @@
 			</header>
 			<main>
 				<div class="container">
-					hai
+					<div class="panel panel-default">
+						<div class="panel-body">panel text here</div>
+					</div>
+					<h2>Venn Diagram Method #1</h2>
+					<div class="row">
+						<div class="col-xs-12">
+							<div id="venn">
+								<div>
+									<p>venn 1</p>
+								</div>
+								<div>
+									<p>venn 2</p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</main>
 		</div>

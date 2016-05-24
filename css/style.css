@@ -9,14 +9,65 @@
 **/
 
 /**
-* header styles
+* superfluous header styles
 **/
+header {
+	background-color: lawngreen;
+	color: #ffffff;
+	padding-bottom: 1rem;
+}
+
+/**
+* Main Section Styles
+**/
+main {
+	padding: 4rem 0 4rem 0;
+}
 
 /**
 * Venn Diagram Styles
 **/
+#venn {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
 
+#venn div {
+	align-items: center;
+	border-radius: 50%;
+	display: flex;
+	height: 50vw;
+	width: 50vw;
+	justify-content: center;
+}
 
+#venn div:first-child {
+	background-color: rgba(255,0,0,0.5);
+}
+
+#venn div:nth-child(2) {
+	background-color: rgba(0,255,255,0.5);
+	margin: -10vw 0 0 0;
+}
+
+/* venn styles for sm, md, lg breakpoints*/
+@media only screen and (min-width: 768px) {
+
+	#venn {
+		flex-direction: row;
+	}
+
+	#venn div {
+		width: 25vw;
+		height: 25vw
+	}
+
+	#venn div:nth-child(2) {
+		margin: 0 0 0 -5vw;
+	}
+}
 
 /***
 * Flexbox Sticky Footer
