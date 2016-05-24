@@ -7,6 +7,9 @@
 /**
 * utility styles
 **/
+.m-b-4 {
+	margin-bottom: 4rem;
+}
 
 /**
 * superfluous header styles
@@ -15,10 +18,6 @@ header {
 	background-color: lawngreen;
 	color: #ffffff;
 	padding-bottom: 1rem;
-}
-
-.m-b-4 {
-	margin-bottom: 4rem;
 }
 
 /**
@@ -76,7 +75,7 @@ main {
 
 	#venn div {
 		width: 25vw;
-		height: 25vw
+		height: 25vw;
 	}
 
 	#venn div:nth-child(2) {

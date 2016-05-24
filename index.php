@@ -125,7 +125,7 @@
 
   #venn div {
     width: 25vw;
-    height: 25vw
+    height: 25vw;
   }
 
   #venn div:nth-child(2) {
