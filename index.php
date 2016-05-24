@@ -41,12 +41,17 @@
 			</header>
 			<main>
 				<div class="container">
-					<div class="panel panel-default">
-						<div class="panel-body">panel text here</div>
+					<div class="panel panel-default m-b-4">
+						<div class="panel-body">
+							<p class="h4">A mobile-first, fully responsive Venn diagram made with Flexbox. Author: Rochelle Lewis</p>
+							<p>On xs screens (< 768px), the Venn diagram defaults to a vertical layout, and flips to a horizontal layout on screens > 768px. The relative units of measure rems, percentage and vw have been favored over hard pixel sizes. All centering has been handled with flexbox rules, and the overlap with negative margins. This example has been made to fully integrate with Bootstrap. If not using bootstrap, be sure that <code>box-sizing: border-box;</code> has been set on the Venn diagram to ensure the animation works as it does here in this example.</p>
+						</div>
 					</div>
-					<h2>Venn Diagram Method #1</h2>
+
 					<div class="row">
 						<div class="col-xs-12">
+
+							<!-- Begin Venn Diagram-->
 							<div id="venn">
 								<div>
 									<p>venn 1</p>
@@ -54,9 +59,79 @@
 								<div>
 									<p>venn 2</p>
 								</div>
-							</div>
-						</div>
-					</div>
+							</div><!--/#venn-->
+						</div><!--/.col-->
+					</div><!--/.row-->
+
+					<h3>HTML</h3>
+					<pre>
+&lt;!-- Begin Venn Diagram--&gt;
+&lt;div id="venn"&gt;
+  &lt;div&gt;
+    &lt;p&gt;venn 1&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;p&gt;venn 2&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;!--/#venn--&gt;</pre>
+
+					<h3>CSS</h3>
+					<pre>
+/**
+* Venn Diagram Styles
+**/
+#venn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#venn div {
+  width: 50vw;
+  height: 50vw;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#venn div:hover {
+  border: 5rem solid rgba(0,0,0,0.1);
+  box-shadow: 0 0 0 20px rgba(0,0,0,0.15);
+  -webkit-box-shadow: 0 0 0 20px rgba(0,0,0,0.5);
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+#venn div:first-child {
+  background-color: rgba(255,0,0,0.5);
+}
+
+#venn div:nth-child(2) {
+  background-color: rgba(0,255,255,0.5);
+  margin: -10vw 0 0 0;
+}
+
+/* venn styles for sm, md, lg breakpoints*/
+@media only screen and (min-width: 768px) {
+
+  #venn {
+    flex-direction: row;
+  }
+
+  #venn div {
+    width: 25vw;
+    height: 25vw
+  }
+
+  #venn div:nth-child(2) {
+    margin: 0 0 0 -5vw;
+  }
+}</pre>
 				</div>
 			</main>
 		</div>
