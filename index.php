@@ -98,8 +98,8 @@
 
 #venn div:hover {
   border: 5rem solid rgba(0,0,0,0.1);
-  box-shadow: 0 0 0 20px rgba(0,0,0,0.15);
-  -webkit-box-shadow: 0 0 0 20px rgba(0,0,0,0.5);
+  box-shadow: 0 0 0 2rem rgba(0,0,0,0.15);
+  -webkit-box-shadow: 0 0 0 2rem rgba(0,0,0,0.15);
   -webkit-transition: all 250ms ease-in-out;
   -moz-transition: all 250ms ease-in-out;
   -ms-transition: all 250ms ease-in-out;
