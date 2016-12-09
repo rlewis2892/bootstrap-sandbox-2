@@ -28,17 +28,19 @@
 			<div class="row">
 
 				<div class="col-xs-6 col-sm-2">
-					<div class="tile">
-						<div class="strain-type small">
-							Hybrid
+					<a href="#" class="tile-link">
+						<div class="tile">
+							<div class="strain-type small">
+								Hybrid
+							</div>
+							<div class="strain-abbr-title text-center">
+								<h3>Chz</h3>
+							</div>
+							<div class="strain-name text-right small">
+								Cheezy
+							</div>
 						</div>
-						<div class="strain-abbr-title text-center">
-							<h3>Chz</h3>
-						</div>
-						<div class="strain-name text-right small">
-							Cheezy
-						</div>
-					</div>
+					</a>
 				</div>
 
 				<div class="col-xs-6 col-sm-2">

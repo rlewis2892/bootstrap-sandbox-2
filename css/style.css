@@ -3,22 +3,24 @@
 	padding: 1rem;
 	border-radius: 1rem;
 	margin-bottom: 1rem;
-
-	/* for proper alignment */
-	/*display: flex;*/
-	/*align-items: center;*/
-	/*justify-content: center;*/
 }
-
-/*.strain-type {*/
-	/*align-self: flex-start;*/
-/*}*/
-
-/*.strain-name {*/
-	/*align-self: flex-end;*/
-/*}*/
 
 .strain-abbr-title h3 {
 	margin: 1.25rem 0;
 	font-weight: bold;
+}
+
+a.tile-link,
+a.tile-link:hover,
+a.tile-link:active,
+a.tile-link:visited {
+	color: #333;
+	text-decoration: none;
+}
+
+/*
+* Demo Styles
+*/
+body {
+	padding: 5rem 0;
 }
