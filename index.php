@@ -21,6 +21,9 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+		<!-- Custom JavaScript -->
+		<script src="js/custom.js" type="text/javascript"></script>
+
 		<title>420 Demo</title>
 	</head>
 	<body>
@@ -44,74 +47,86 @@
 				</div>
 
 				<div class="col-xs-6 col-sm-2">
-					<div class="tile">
-						<div class="strain-type small">
-							Hybrid
+					<a href="#" class="tile-link">
+						<div class="tile">
+							<div class="strain-type small">
+								Hybrid
+							</div>
+							<div class="strain-abbr-title text-center">
+								<h3>Chz</h3>
+							</div>
+							<div class="strain-name text-right small">
+								Cheezy
+							</div>
 						</div>
-						<div class="strain-abbr-title text-center">
-							<h3>Chz</h3>
-						</div>
-						<div class="strain-name text-right small">
-							Cheezy
-						</div>
-					</div>
+					</a>
 				</div>
 
 				<div class="col-xs-6 col-sm-2">
-					<div class="tile">
-						<div class="strain-type small">
-							Hybrid
+					<a href="#" class="tile-link">
+						<div class="tile">
+							<div class="strain-type small">
+								Hybrid
+							</div>
+							<div class="strain-abbr-title text-center">
+								<h3>Chz</h3>
+							</div>
+							<div class="strain-name text-right small">
+								Cheezy
+							</div>
 						</div>
-						<div class="strain-abbr-title text-center">
-							<h3>Chz</h3>
-						</div>
-						<div class="strain-name text-right small">
-							Cheezy
-						</div>
-					</div>
+					</a>
 				</div>
 
 				<div class="col-xs-6 col-sm-2">
-					<div class="tile">
-						<div class="strain-type small">
-							Hybrid
+					<a href="#" class="tile-link">
+						<div class="tile">
+							<div class="strain-type small">
+								Hybrid
+							</div>
+							<div class="strain-abbr-title text-center">
+								<h3>Chz</h3>
+							</div>
+							<div class="strain-name text-right small">
+								Cheezy
+							</div>
 						</div>
-						<div class="strain-abbr-title text-center">
-							<h3>Chz</h3>
-						</div>
-						<div class="strain-name text-right small">
-							Cheezy
-						</div>
-					</div>
+					</a>
 				</div>
 
 				<div class="col-xs-6 col-sm-2">
-					<div class="tile">
-						<div class="strain-type small">
-							Hybrid
+					<a href="#" class="tile-link">
+						<div class="tile">
+							<div class="strain-type small">
+								Hybrid
+							</div>
+							<div class="strain-abbr-title text-center">
+								<h3>Chz</h3>
+							</div>
+							<div class="strain-name text-right small">
+								Cheezy
+							</div>
 						</div>
-						<div class="strain-abbr-title text-center">
-							<h3>Chz</h3>
-						</div>
-						<div class="strain-name text-right small">
-							Cheezy
-						</div>
-					</div>
+					</a>
 				</div>
 
 				<div class="col-xs-6 col-sm-2">
-					<div class="tile">
-						<div class="strain-type small">
-							Hybrid
+					<a href="#" class="tile-link">
+						<div class="tile">
+							<div class="strain-type small">
+								Hybrid
+							</div>
+							<div class="strain-abbr-title text-center">
+								<h3>Chz</h3>
+							</div>
+							<div class="strain-name text-right small">
+								Cheezy
+							</div>
 						</div>
-						<div class="strain-abbr-title text-center">
-							<h3>Chz</h3>
-						</div>
-						<div class="strain-name text-right small">
-							Cheezy
-						</div>
-					</div>
+					</a>
 				</div>
+
+
 
 			</div>
 		</div>

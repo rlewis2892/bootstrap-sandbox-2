@@ -1,8 +1,13 @@
 .tile {
 	background-color: orange;
-	padding: 1rem;
-	border-radius: 1rem;
-	margin-bottom: 1rem;
+	padding: 1.5rem;
+	border-radius: 2rem;
+	margin-bottom: 1.5rem;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
 }
 
 .strain-abbr-title h3 {
@@ -10,16 +15,29 @@
 	font-weight: bold;
 }
 
+/* tile-link styles and hover effects */
 a.tile-link,
 a.tile-link:hover,
 a.tile-link:active,
 a.tile-link:visited {
 	color: #333;
+	display: block;
 	text-decoration: none;
 }
 
+a.tile-link:hover {
+	color: #fff;
+}
+
+a.tile-link:hover > .tile {
+	background-color: darkmagenta;
+	color: #fff;
+	position: relative;
+	top: -1rem;
+}
+
 /*
-* Demo Styles
+* Page Layout Styles (not important)
 */
 body {
 	padding: 5rem 0;
