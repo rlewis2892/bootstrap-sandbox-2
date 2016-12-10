@@ -37,7 +37,7 @@
 								Hybrid
 							</div>
 							<div class="strain-abbr-title text-center">
-								<h3>Chz</h3>
+								<h2>Chz</h2>
 							</div>
 							<div class="strain-name text-right small">
 								Cheezy
@@ -53,7 +53,7 @@
 								Hybrid
 							</div>
 							<div class="strain-abbr-title text-center">
-								<h3>Chz</h3>
+								<h2>Chz</h2>
 							</div>
 							<div class="strain-name text-right small">
 								Cheezy
@@ -69,7 +69,7 @@
 								Hybrid
 							</div>
 							<div class="strain-abbr-title text-center">
-								<h3>Chz</h3>
+								<h2>Chz</h2>
 							</div>
 							<div class="strain-name text-right small">
 								Cheezy
@@ -85,7 +85,7 @@
 								Hybrid
 							</div>
 							<div class="strain-abbr-title text-center">
-								<h3>Chz</h3>
+								<h2>Chz</h2>
 							</div>
 							<div class="strain-name text-right small">
 								Cheezy
@@ -101,7 +101,7 @@
 								Hybrid
 							</div>
 							<div class="strain-abbr-title text-center">
-								<h3>Chz</h3>
+								<h2>Chz</h2>
 							</div>
 							<div class="strain-name text-right small">
 								Cheezy
@@ -117,7 +117,7 @@
 								Hybrid
 							</div>
 							<div class="strain-abbr-title text-center">
-								<h3>Chz</h3>
+								<h2>Chz</h2>
 							</div>
 							<div class="strain-name text-right small">
 								Cheezy

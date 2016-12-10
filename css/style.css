@@ -1,8 +1,14 @@
+/*
+* Default Tile Styles
+*/
 .tile {
 	background-color: orange;
-	padding: 1.5rem;
 	border-radius: 2rem;
+	display: flex;
 	margin-bottom: 1.5rem;
+	padding: 1.5rem;
+	position: relative;
+	top: 0;
 	-webkit-transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
@@ -10,12 +16,26 @@
 	transition: all 500ms ease;
 }
 
-.strain-abbr-title h3 {
-	margin: 1.25rem 0;
-	font-weight: bold;
+.strain-type {
+	align-self: flex-start;
 }
 
-/* tile-link styles and hover effects */
+.strain-name {
+	align-self: flex-end;
+}
+
+.strain-abbr-title {
+	align-self: center;
+	flex: 1;
+}
+
+.strain-abbr-title h2 {
+	margin: 1.25rem 0;
+}
+
+/*
+* Tile link styles and hover effects
+*/
 a.tile-link,
 a.tile-link:hover,
 a.tile-link:active,
@@ -32,7 +52,6 @@ a.tile-link:hover {
 a.tile-link:hover > .tile {
 	background-color: darkmagenta;
 	color: #fff;
-	position: relative;
 	top: -1rem;
 }
 
