@@ -2,10 +2,11 @@
 * Default Tile Styles
 */
 .tile {
-	background-color: orange;
+	background-color: #eee;
 	border: 3px solid rgba(0,0,0,0.1);
 	border-radius: 2rem;
 	display: flex;
+	font-weight: bold;
 	margin-bottom: 1.5rem;
 	padding: 1.5rem;
 	position: relative;
@@ -46,13 +47,9 @@ a.tile-link:visited {
 	text-decoration: none;
 }
 
-a.tile-link:hover {
-	color: #fff;
-}
-
 a.tile-link:hover > .tile {
-	background-color: darkmagenta;
-	color: #fff;
+	background-color: greenyellow;
+	color: #333;
 	top: -1rem;
 }
 
