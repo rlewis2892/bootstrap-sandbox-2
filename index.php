@@ -41,7 +41,11 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-8">
-					col1
+					<div class="hey-friend">
+						<div class="welcome-heading">
+							<h3>Hey Friend</h3>
+						</div>
+					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="row">
