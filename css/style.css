@@ -16,6 +16,15 @@
 	background-size: cover;
 }
 
+.logo-search {
+	padding-top: 25vh;
+}
+
+footer {
+	background-color: #f5f5f5;
+	padding: 2rem 0;
+}
+
 /***
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
