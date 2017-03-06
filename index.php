@@ -47,7 +47,7 @@
 									<div class="input-group">
 										<input id="searchAddress" name="searchAddress" type="text" class="form-control input-lg" placeholder="ABQ Address"/>
 										<div class="input-group-btn">
-											<button class="btn btn-info btn-lg" type="button">
+											<button class="btn btn-default btn-lg" type="button">
 												<i class="glyphicon glyphicon-search"></i>
 											</button>
 										</div>
