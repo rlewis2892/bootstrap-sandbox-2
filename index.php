@@ -110,9 +110,9 @@
 							<div id="waypoint-4" class="jumbotron animated waypoint">
 								<h2 class="text-center">Instructions</h2>
 								<p>This demo requires two dependencies: <a href="https://daneden.github.io/animate.css/" target="_blank">Animate.css</a> and <a href="http://imakewebthings.com/waypoints/" target="_blank">Waypoints.js</a>. Download these and add to your project files. Add links to your &lt;head&gt; tag.</p>
-								<p>You'll need to add the proper classes to your animated sections. Look for the <strong>animated</strong> and <strong>waypoint</strong> classes.</p>
+								<p>You'll need to add the proper classes to your animated sections in your HTML. Look for the <strong>animated</strong> and <strong>waypoint</strong> classes.</p>
 								<p>Each animated section also needs an <strong>id</strong>.</p>
-								<p>You'll need to create a custom JavaScript/jQuery file to program the behavior of the animated sections. See custom-waypoints.js in this project.</p>
+								<p>You'll need to create a custom JavaScript/jQuery file to program the behavior of the animated sections. See <strong>custom-waypoints.js</strong> file in this project.</p>
 								<p>There were only three css rules I <em>needed</em> to add to bring this all togther. Those specific styles are in the <strong>waypoints-styles.css</strong> file. All other css styles are purely cosmetic!</p>
 							</div>
 						</div>
