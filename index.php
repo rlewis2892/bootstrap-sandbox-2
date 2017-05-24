@@ -15,6 +15,7 @@
 		<link rel="stylesheet" href="css/animate.css" type="text/css">
 
 		<!-- Custom CSS Goes HERE -->
+		<link rel="stylesheet" href="css/waypoints-styles.css" type="text/css">
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -46,10 +47,13 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3">
-							<div class="jumbotron text-center">
+							<div class="jumbotron text-center animated bounceInDown">
 								<h2>Scroll Down</h2>
-								<i class="fa fa-arrow-down"></i>
 								<p>To see page content come into view.</p>
+								<span class="fa-stack fa-2x">
+									<i class="fa fa-circle-thin fa-stack-2x"></i>
+									<i class="fa fa-arrow-down fa-stack-1x"></i>
+								</span>
 							</div>
 						</div>
 					</div>
@@ -102,9 +106,11 @@
 			<section class="bg-purple">
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-xs-12 text-center">
-							<h2>Instructions</h2>
-							<p>instructions here</p>
+						<div class="col-md-10 col-md-offset-1">
+							<div id="waypoint-4" class="jumbotron text-center animated waypoint">
+								<h2>Instructions</h2>
+								<p>This demo requires two dependencies: Animate.css and Waypoints.js. Download these and add to your project files. Add links to your &lt;head&gt; tag.</p>
+							</div>
 						</div>
 					</div>
 				</div>

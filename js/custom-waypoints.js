@@ -6,8 +6,8 @@ $(document).ready(function() {
 	 * The Waypoints functionality has been limited to screen widths
 	 * of > 992px (md breakpoint) for better UX on mobile.
 	 *
-	 * Each section has it's own function, so it can be customized. See offset
-	 * and the addClass
+	 * Each section has it's own function, so it can be customized.
+	 * See offset and addClass.
 	 *
 	 * Animate.css classes have been added in the addClass function.
 	 *
@@ -24,13 +24,13 @@ $(document).ready(function() {
 		$("#waypoint-1").waypoint(function() {
 			// remove opacity-0 class, add Animate.css class to animate into view
 			$("#waypoint-1").removeClass("opacity-0").addClass("fadeInLeft");
-		}, {offset: "25%"});
+		}, {offset: "50%"});
 
 		// section 2
 		$("#waypoint-2").waypoint(function() {
 			// remove opacity-0 class, add Animate.css class to animate into view
 			$("#waypoint-2").removeClass("opacity-0").addClass("fadeInRight");
-		}, {offset: "25%"});
+		}, {offset: "50%"});
 
 		// section 3
 		$("#waypoint-3").waypoint(function() {
@@ -38,10 +38,16 @@ $(document).ready(function() {
 			$("#waypoint-3").removeClass("opacity-0").addClass("fadeInLeft");
 		}, {offset: "50%"});
 
+		// section 4/instructions
+		$("#waypoint-4").waypoint(function() {
+			// remove opacity-0 class, add Animate.css class to animate into view
+			$("#waypoint-4").removeClass("opacity-0").addClass("bounceInUp");
+		}, {offset: "50%"});
+
 		// footer
 		$("footer .col-xs-12").waypoint(function() {
 			// remove opacity-0 class, add Animate.css class to animate into view
-			$("footer .col-xs-12").removeClass("opacity-0").addClass("fadeInUp");
+			$("footer .col-xs-12").removeClass("opacity-0").addClass("rubberBand");
 		}, {offset: "100%"});
 
 

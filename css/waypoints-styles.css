@@ -1,14 +1,13 @@
 /***
-* These styles are needed for Waypoints
-* sections to work/animate properly.
+* These styles are relevant to the demo functionality.
 ***/
 
-/* overrides default animation duration */
+/* overrides default Animate.css animation duration */
 .animated {
-	animation-duration: 1.5s;
+	animation-duration: 1.25s;
 }
 
-/* for hiding content sections */
+/* for hiding the waypoint content sections */
 .opacity-0 {
 	opacity: 0;
 }
