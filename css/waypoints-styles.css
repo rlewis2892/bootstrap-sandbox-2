@@ -1,0 +1,14 @@
+/***
+* These styles are needed for Waypoints
+* sections to work/animate properly.
+***/
+
+/* overrides default animation duration */
+.animated {
+	animation-duration: 1.5s;
+}
+
+/* for hiding content sections */
+.opacity-0 {
+	opacity: 0;
+}

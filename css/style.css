@@ -1,0 +1,60 @@
+/***
+* These styles are superfluous and purely cosmetic only.
+***/
+
+/***
+* UTILITY STYLES
+***/
+
+.bg-purple {
+	background-color: rebeccapurple;
+	color: #fff;
+}
+
+/***
+* WELCOME SECTION
+***/
+section.welcome {
+	min-height: 100vh;
+	background-color: rebeccapurple;
+	padding: 0;
+}
+
+/***
+* WAYPOINT CONTENT SECTIONS
+***/
+section {
+	padding: 10rem 0;
+}
+
+section:nth-child(3) {
+	background-color: lightgray;
+}
+
+/***
+* FOOTER STYLES
+***/
+footer {
+	padding: 3rem 0;
+	background: #000;
+	color: #888;
+}
+
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 200vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
