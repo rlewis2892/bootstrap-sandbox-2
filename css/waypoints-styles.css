@@ -1,6 +1,10 @@
 /***
 * These styles are relevant to the demo functionality.
 ***/
+/* prevents pesky horizontal scrollbar as elements are animated into view */
+body {
+	overflow-x: hidden;
+}
 
 /* overrides default Animate.css animation duration */
 .animated {

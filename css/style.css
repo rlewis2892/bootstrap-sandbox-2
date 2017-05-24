@@ -11,6 +11,19 @@
 	color: #fff;
 }
 
+.bg-purple a,
+.bg-purple a:link,
+.bg-purple a:visited,
+.bg-purple a:hover,
+.bg-purple a:active,
+footer a,
+footer a:link,
+footer a:visited,
+footer a:hover,
+footer a:active {
+	color: yellow;
+}
+
 .jumbotron {
 	background-color: transparent;
 	border-radius: 0 !important;

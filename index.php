@@ -50,7 +50,7 @@
 							<div class="jumbotron text-center animated bounceInDown">
 								<h2>Scroll Down</h2>
 								<p>To see page content come into view.</p>
-								<span class="fa-stack fa-2x">
+								<span class="fa-stack fa-2x animated bounce infinite">
 									<i class="fa fa-circle-thin fa-stack-2x"></i>
 									<i class="fa fa-arrow-down fa-stack-1x"></i>
 								</span>
@@ -107,9 +107,13 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-10 col-md-offset-1">
-							<div id="waypoint-4" class="jumbotron text-center animated waypoint">
-								<h2>Instructions</h2>
-								<p>This demo requires two dependencies: Animate.css and Waypoints.js. Download these and add to your project files. Add links to your &lt;head&gt; tag.</p>
+							<div id="waypoint-4" class="jumbotron animated waypoint">
+								<h2 class="text-center">Instructions</h2>
+								<p>This demo requires two dependencies: <a href="https://daneden.github.io/animate.css/" target="_blank">Animate.css</a> and <a href="http://imakewebthings.com/waypoints/" target="_blank">Waypoints.js</a>. Download these and add to your project files. Add links to your &lt;head&gt; tag.</p>
+								<p>You'll need to add the proper classes to your animated sections. Look for the <strong>animated</strong> and <strong>waypoint</strong> classes.</p>
+								<p>Each animated section also needs an <strong>id</strong>.</p>
+								<p>You'll need to create a custom JavaScript/jQuery file to program the behavior of the animated sections. See custom-waypoints.js in this project.</p>
+								<p>There were only three css rules I <em>needed</em> to add to bring this all togther. Those specific styles are in the <strong>waypoints-styles.css</strong> file. All other css styles are purely cosmetic!</p>
 							</div>
 						</div>
 					</div>
@@ -121,7 +125,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xs-12 text-center waypoint animated">
-						This is the footer. Meow!
+						View on <a href="https://github.com/rlewis2892/bootstrap-sandbox-2/tree/troi-waypoints" target="_blank">GitHub.</a> Meow!
 					</div>
 				</div>
 			</div>
