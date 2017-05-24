@@ -18,7 +18,7 @@ $(document).ready(function() {
 	if($(window).width() > 991){
 
 		// hide all waypoints sections onload by default by applying a class
-		$(".waypoint, footer .col-xs-12").addClass("opacity-0");
+		$(".waypoint").addClass("opacity-0");
 
 		// section 1
 		$("#waypoint-1").waypoint(function() {
