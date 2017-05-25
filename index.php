@@ -124,7 +124,7 @@
 		<footer>
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12 text-center waypoint animated">
+					<div id="waypoint-5" class="col-xs-12 text-center waypoint animated">
 						View on <a href="https://github.com/rlewis2892/bootstrap-sandbox-2/tree/troi-waypoints" target="_blank">GitHub.</a> Meow!
 					</div>
 				</div>

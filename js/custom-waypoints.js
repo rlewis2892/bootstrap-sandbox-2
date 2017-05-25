@@ -45,9 +45,9 @@ $(document).ready(function() {
 		}, {offset: "50%"});
 
 		// footer
-		$("footer .col-xs-12").waypoint(function() {
+		$("#waypoint-5").waypoint(function() {
 			// remove opacity-0 class, add Animate.css class to animate into view
-			$("footer .col-xs-12").removeClass("opacity-0").addClass("rubberBand");
+			$("#waypoint-5").removeClass("opacity-0").addClass("rubberBand");
 		}, {offset: "100%"});
 
 
